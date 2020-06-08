@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header th:replace="fragments/header :: top">
+<header th:replace="fragments/header :: header">
     Fragment
 </header>
 <ul class="doctor-list">
@@ -26,6 +26,6 @@
     <li><a href="/doctor/?number=13&name=Jodie%20Whittaker">Doctor 13</a></li>
     <li><a href="/doctor/">Unknown Doctor</a></li>
 </ul>
-<footer th:replace="fragments/footer.html :: bottom">Fragment</footer>
+<footer th:replace="fragments/footer.html :: footer">Fragment</footer>
 </body>
 </html>
